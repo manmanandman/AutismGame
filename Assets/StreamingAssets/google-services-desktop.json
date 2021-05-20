@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435568351077",
+    "firebase_url": "https://imboonoonjaitest-default-rtdb.firebaseio.com",
+    "project_id": "imboonoonjaitest",
+    "storage_bucket": "imboonoonjaitest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435568351077:android:d2a5eab4f8be988569338c",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.ImBoonOonJai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435568351077-cohtoluo7ngq1jogiehqn8h41h8f3jlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANiGt2EOCfaV9WppC_R5_hgu756kmFAAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435568351077-cohtoluo7ngq1jogiehqn8h41h8f3jlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

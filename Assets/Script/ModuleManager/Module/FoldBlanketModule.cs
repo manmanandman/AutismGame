@@ -77,6 +77,7 @@ public class FoldBlanketModule : Module
                 foldGame0.SetActive(false);
                 foldGame1.SetActive(true);
                 AudioManager.Instance.PlayOneShot(correctSound);
+                AudioManager.Instance.PlayOneShot(SFX[0]);
                 DisplayNextDialogue();
             }
             hand.SetActive(false);
@@ -120,6 +121,7 @@ public class FoldBlanketModule : Module
                 this.transform.GetChild(0).GetChild(9).gameObject.SetActive(true); //รูปความคิด ยกนิ้วโป้ง (BG)
                 //time.SetActive(false);
                 AudioManager.Instance.PlayOneShot(correctSound);
+                AudioManager.Instance.PlayOneShot(SFX[0]);
                 if (!hasCompleted)
                     PlayVO(4);
                 DisplayNextDialogue();

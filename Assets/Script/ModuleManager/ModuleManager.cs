@@ -75,8 +75,11 @@ public class ModuleManager : MonoBehaviour
         if(currentModule)
         {
             currentModule.gameObject.SetActive(false);
+            currentModule.LayerResult = LayerResult;
             currentModule.ResetModule();
             currentModule.gameObject.SetActive(true);
+
+
             //SetActiveListCanvas(currentModule.LayerBackground, true);
             //SetActiveListCanvas(currentModule.LayerInteractable, true);
         }

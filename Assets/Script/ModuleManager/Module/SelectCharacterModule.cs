@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class SelectCharacterModule : Module
 {
-    public GameObject layer2;
     private Button boyButton;
     private Button girlButton;
     public override void ResetModule() {

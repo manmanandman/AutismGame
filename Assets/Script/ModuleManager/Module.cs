@@ -24,11 +24,10 @@ public class Module : MonoBehaviour
 
     public AudioClip correctSound;
 
-    public GameObject LayerResult; // manual assign ( can be null if not have "GetStar()" function  )
 
     // auto assign
-    public GameObject Hint; // not using anymore in latest update meeting
-
+    [HideInInspector] public GameObject Hint; // not using anymore in latest update meeting
+    [HideInInspector] public GameObject LayerResult; // auto assign ( can be null if not have "GetStar()" function  )
     [HideInInspector] public List<bool> checkVO = new List<bool>();
 
     public void OnEnable() // run every time that module start
